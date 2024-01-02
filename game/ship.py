@@ -12,6 +12,10 @@ class Ship (Context):
         self.hy = 0
         self.medicine = 5
         self.food = 100
+         # counters for mini game resources
+        self.firewood = 0
+        self.shelter = 0
+        self.water = 0
         self.loc = None
 
         self.verbs['anchor'] = self
